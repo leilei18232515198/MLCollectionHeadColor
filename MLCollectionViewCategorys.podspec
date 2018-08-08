@@ -25,6 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
+        用于改变collectionview分组头的颜色
                    DESC
 
   s.homepage     = "https://github.com/leilei18232515198/MLCollectionHeadColor.git"
