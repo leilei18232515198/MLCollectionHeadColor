@@ -3,7 +3,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "MLCollectionViewCategorys"
-  s.version      = "1.0.4"
+  s.version      = "1.0.6"
   s.summary      = "用于改变collectionview分组头的颜色"
   s.ios.deployment_target = '8.0'
 
@@ -20,11 +20,10 @@ Pod::Spec.new do |s|
   s.author       = { "yanglei" => "598090063@qq.com" }
 
 
-  s.source       = { :git => "https://github.com/leilei18232515198/MLCollectionHeadColor.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/leilei18232515198/MLCollectionHeadColor.git", :tag => s.version }
 
 
-  s.source_files  = "MLCollectionViewCategorys/*"
-  # s.exclude_files = "Classes/Exclude"
+  s.source_files  = 'MLCollectionViewCategorys/*'
 
   s.requires_arc = true
 
