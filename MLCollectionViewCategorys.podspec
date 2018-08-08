@@ -3,7 +3,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "MLCollectionViewCategorys"
-  s.version      = "1.0.6"
+  s.version      = "1.0.7"
   s.summary      = "用于改变collectionview分组头的颜色"
   s.ios.deployment_target = '8.0'
 
